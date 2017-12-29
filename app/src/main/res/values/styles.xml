@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="lol">
+        <item name="android:colorControlHighlight">@color/colorAccent</item>
+    </style>
+    <style name="ripple">
+        <item name="android:theme">@style/lol</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+</resources>
